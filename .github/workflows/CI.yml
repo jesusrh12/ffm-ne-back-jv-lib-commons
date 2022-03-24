@@ -54,7 +54,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Publish package
-        run: mvn deploy -Dregistry=https://maven.pkg.github.com/jesusrh12 -Dtoken=$TOKEN_GITHUB
+        run: mvn deploy -Dregistry=https://maven.pkg.github.com/jesusrh12/ffm-ne-back-jv-lib-commons -Dtoken=$TOKEN_GITHUB
         #run: mvn --batch-mode deploy
         #env:
         #  GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
