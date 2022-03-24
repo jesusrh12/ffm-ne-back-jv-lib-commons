@@ -134,11 +134,11 @@
 
 
 		<distributionManagement>
-		 <repository>
-		    <id>commons</id>
-		    <name>commons</name>
-		    <url>https://maven.pkg.github.com/jesusrh12/ffm-ne-back-jv-lib-commons</url>
-		 </repository>
+		  <repository>
+		     <id>commons</id>
+		     <name>commons</name>
+		     <url>https://maven.pkg.github.com/jesusrh12/ffm-ne-back-jv-lib-commons</url>
+		  </repository>
 		</distributionManagement>
 
 	</dependencies>
