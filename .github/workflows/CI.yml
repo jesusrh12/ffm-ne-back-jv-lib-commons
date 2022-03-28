@@ -41,8 +41,9 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: '11'
+          distribution: 'adopt'
       - name: Set up Maven Settings for deploy
-        uses: s4u/maven-settings-action@v2.1.1    
+        uses: s4u/maven-settings-action@v2.1.1   
       - name: Publish package
         env:
           GITHUB_USERNAME: ${{ secrets.USER_NAME }}
