@@ -49,4 +49,4 @@ jobs:
         env:
           GITHUB_USERNAME: ${{ secrets.USER_NAME }}
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-        run: mvn --settings settings.xml --file pom.xml deploy
+        run: mvn deploy
