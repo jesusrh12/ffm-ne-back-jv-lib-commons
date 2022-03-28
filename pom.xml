@@ -133,15 +133,7 @@
 		</dependency>
 
 	</dependencies>
-  <profiles>
-    <profile>
-      <id>github</id>
-      <activation>
-        <property>
-          <name>useGitHubPackages</name>
-          <value>true</value>
-        </property>
-      </activation>
+  
       <distributionManagement>
         <repository>
           <id>commons</id>
@@ -149,6 +141,5 @@
           <url>https://maven.pkg.github.com/jesusrh12/ffm-ne-back-jv-lib-commons</url>
         </repository>
       </distributionManagement>
-    </profile>
-  </profiles>
+  
 </project>
