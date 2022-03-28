@@ -45,7 +45,8 @@ jobs:
       - name: Set up Maven Settings for deploy
         uses: s4u/maven-settings-action@v2.1.1   
       - name: Publish package
+        run: mvn -B package
         env:
           GITHUB_USERNAME: ${{ secrets.USER_NAME }}
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-        run: mvn -X deploy
+     #   run: mvn -X deploy
