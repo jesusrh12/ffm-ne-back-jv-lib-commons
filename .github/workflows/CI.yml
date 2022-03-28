@@ -44,11 +44,6 @@ jobs:
           distribution: 'adopt'
       - name: Set up Maven Settings for deploy
         uses: s4u/maven-settings-action@v2.1.1
-      - name: Publish Artifact
-        uses: actions/upload-artifact@v1
-        with:
-            name: commons.jar
-            path: target/*.jar 
       - name: Publish package
       #  run: mvn --batch-mode deploy
         env:
