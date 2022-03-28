@@ -49,5 +49,7 @@ jobs:
         env:
           GITHUB_USERNAME: ${{ secrets.USER_NAME }}
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-        run: mvn --settings settings.xml --file pom.xml deploy
+       # run: mvn --settings settings.xml --file pom.xml deploy
+        run: mvn clean source:jar deploy -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -Dmaven.install.skip=true -DdeplyAtEnd=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/OWNER/REPOSITORY'
+
         
