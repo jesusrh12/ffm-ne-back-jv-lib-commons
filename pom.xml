@@ -7,7 +7,7 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>commons</name>
-	<url>https://maven.apache.pkg.github.comn/jesusrh12/ffm-ne-back-jv-lib-commons</url>
+	<url>http://maven.apache.org</url>
 
 
 	<properties>
