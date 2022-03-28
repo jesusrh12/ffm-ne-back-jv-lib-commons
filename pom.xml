@@ -6,7 +6,7 @@
 	<artifactId>commons</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	#<name>commons</name>
+	<name>commons</name>
 	<url>http://maven.apache.org</url>
 
 
